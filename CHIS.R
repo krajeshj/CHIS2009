@@ -4,10 +4,11 @@ library(reshape2)
 library(ggthemes)
 # Read CHIS file
 library(foreign)
+library(dplyr)
 
 #dplyr, cars are loaded later
 
-setwd("~/Desktop/Coursera/SpringboardGithub/CHIS")
+setwd("~/Desktop/Coursera/SpringboardGithub/CHIS2009")
 file <- "./chis09_adult_stata/chis09_adult_stata/ADULT.dta"
 
  options(nwarnings=500)  # Bump up number of warnings -- see note below
